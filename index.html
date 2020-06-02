@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Estoque App</title>
+</head>
+
+
+<body>
+   <h1>Estoque ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h1>
+   <p>Seus produtos</p> 
+
+   <table class="center">
+       <tr class="trPrinc">
+           <th >Produto</th>
+           <th >Quantidade</th>
+           <th>Fornecedor</th>
+           <th>Id</th>
+       </tr>
+
+
+       <tr>
+        <td>Canaleta</td>
+        <td>56</td>
+        <td>Madeter</td>
+        <td>#123125125</td>
+      </tr>
+
+
+   </table>
+
+   <form method="POST">
+       <input placeholder="Nome do Produto" class= 'prdt'>
+       <input placeholder="Quantidade" class="qtd">
+       <input placeholder="Fornecedor" class="frnc"> 
+       <button type="submit" form="form" id= "btnForm">Inserir item</button>
+   </form>
+
+
+</body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+
+
+</html>

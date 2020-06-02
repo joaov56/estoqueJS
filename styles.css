@@ -1,0 +1,47 @@
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#20B2AA,#008B8B,	#008080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     text-decoration: underline #008080 ;
+     padding-right: 120px;
+}
+
+p{  
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+th, td {
+    padding: 15px;
+  }
+
+table, th, td {
+    border: 5px solid #20B2AA;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+  }
+
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+th{
+    font-size: 40px;
+    padding: 0px 40px
+    
+}
+
+td{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+form{
+    margin-top: 10px;
+    text-align: center;
+}
